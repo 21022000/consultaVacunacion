@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Empleado:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido del Empleado:"
+        android:textSize="18sp"
+        android:layout_below="@id/tvNombre"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvPuestoLaboral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puesto Laboral:"
+        android:textSize="18sp"
+        android:layout_below="@id/tvApellido"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvVacunaAdministrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacuna Administrada:"
+        android:textSize="18sp"
+        android:layout_below="@id/tvPuestoLaboral"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvFechaPrimeraDosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Primera Dosis:"
+        android:textSize="18sp"
+        android:layout_below="@id/tvVacunaAdministrada"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnConsultaVacunacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta de Vacunacion"
+        android:layout_below="@id/tvFechaPrimeraDosis"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_below="@id/btnConsultaVacunacion"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
